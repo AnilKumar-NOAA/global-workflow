@@ -16,7 +16,7 @@ error_message(){
 }
 
 ###############################################################
-# Start staging
+# Start staging for gfs and gefs system
 
 # Stage the FV3 initial conditions to ROTDIR (cold start)
 YMD=${PDY} HH=${cyc} generate_com -r COM_ATMOS_INPUT
